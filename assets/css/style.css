@@ -12151,12 +12151,20 @@ h2.bd-postheader-4 a {
 #marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXBvc3RyZWFkbW9yZTY {}
 #marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXNlY3Rpb24x {}
 .bd-section-1 {
+  margin-bottom: 0px;
   background-image: url(../../assets/images/ebdb1b540c38eaa03c5fa504ea038ffa_Dell.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center 15.67%;
   height: 780px;
   background-size: 100% auto;
+}
+@media (max-width: 767px) {
+  .bd-section-1 {
+    background-image: url(../../assets/images/864af15fde4dea04360e468549393ac1_Dell.jpg);
+    background-position: center 15.85%;
+    background-size: cover;
+  }
 }
 .bd-section-1 {
   line-height: 34.2857143px;
@@ -12201,17 +12209,7 @@ h2.bd-postheader-4 a {
     font-size: 70px;
   }
 }
-.bd-section-1 {
-  margin-bottom: 0;
-}
-.bd-parallax-bg-effect > .bd-section-1 {
-  background-color: transparent;
-  z-index: 0;
-}
-.bd-parallaxbackground-2 {
-  margin-bottom: 0px;
-}
-.bd-textureoverlay-5:before {
+.bd-textureoverlay-2:before {
   background-color: #000000;
   opacity: 0.5;
 }
